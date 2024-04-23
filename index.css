@@ -182,7 +182,12 @@ li a:hover {
 
 
 .images {
-    border-radius: 10px;
+    border-top: 2px solid var(--primary-color);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin: auto;
+    overflow: hidden;
+    /*border-radius: 10px;*/
     width: 450px;
     /* opacity: 0; */
     /* animation: imageAni 1s ease forwards; */
@@ -190,7 +195,7 @@ li a:hover {
 }
 .images {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    box-shadow: 10px 10px 19px #D1D9E6, -10px -10px 19px #ffffff;
     border-top: 2px solid var(--primary-color);
 }
 
